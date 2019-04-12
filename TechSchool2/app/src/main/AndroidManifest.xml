@@ -9,13 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CursoEliminarActivity"></activity>
-        <activity android:name=".CursoAgregarActivity" />
-        <activity android:name=".CursoBuscarActivity" />
-        <activity android:name=".AgregarCursoActivity" />
         <activity
             android:name=".BuscarSedeActivity"
-            android:label="@string/title_activity_buscar_sede" />
+            android:label="@string/title_activity_buscar_sede"></activity>
         <activity
             android:name=".ListarSeccionActivity"
             android:label="@string/title_activity_listar_seccion" />
@@ -39,10 +35,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true" />
+            android:value="true"/>
     </application>
 
 </manifest>

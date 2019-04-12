@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/action_profesores"
+    android:orderInCategory="100"
+    android:title="@string/nav_profesores"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_alumnos"
+        android:orderInCategory="100"
+        android:title="@string/nav_alumnos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_curso"
+        android:orderInCategory="100"
+        android:title="@string/nav_cursos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_seccion"
+        android:orderInCategory="100"
+        android:title="@string/nav_secciones"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sede"
+        android:orderInCategory="100"
+        android:title="@string/nav_sedes"
+        app:showAsAction="never" />
+</menu>

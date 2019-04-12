@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tech School</string>
+    <string name="title_activity_menu">Menu Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Julio Hurtado</string>
+    <string name="nav_header_subtitle">Administrador</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="nav_profesores">Profesores</string>
+    <string name="nav_alumnos">Alumnos</string>
+    <string name="nav_cursos">Cursos</string>
+    <string name="nav_secciones">Secciones</string>
+    <string name="nav_sedes">Sedes</string>
+    <string name="nav_notificaciones">Notificaciones</string>
+    <string name="nav_configuraciones">Configuraciones</string>
+    <string name="title_activity_listar_profesor">ListarProfesorActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_listar_alumno">ListarAlumnoActivity</string>
+    <string name="title_activity_listar_curso">ListarCursoActivity</string>
+    <string name="title_activity_listar_seccion">ListarSeccionActivity</string>
+    <string name="title_activity_buscar_sede">BuscarSedeActivity</string>
+
+</resources>

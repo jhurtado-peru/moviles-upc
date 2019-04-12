@@ -6,13 +6,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -56,33 +51,6 @@ public class ListarCursoActivity extends AppCompatActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         getSupportActionBar().setTitle("Listado de Cursos");
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        redirectButtons();
-    }
-
-    private void redirectButtons() {
-        ImageView imgAdicionar = (ImageView)findViewById(R.id.adicionar);
-        imgAdicionar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ListarCursoActivity.this, CursoAgregarActivity.class));
-            }
-        });
-
-        ImageView imgBuscar = (ImageView)findViewById(R.id.buscar);
-        imgBuscar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ListarCursoActivity.this, CursoBuscarActivity.class));
-            }
-        });
-
-        ImageView imgEliminar = (ImageView)findViewById(R.id.eliminar);
-        imgEliminar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ListarCursoActivity.this, CursoEliminarActivity.class));
-            }
-        });
     }
 
     private void simpleAdapterListView() {
@@ -107,7 +75,5 @@ public class ListarCursoActivity extends AppCompatActivity {
         ListView listView = (ListView)findViewById(R.id.listViewCursos);
         listView.setAdapter(simpleAdapter);
     }
-
-
 
 }
